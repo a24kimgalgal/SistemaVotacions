@@ -1,7 +1,7 @@
 <template>
     <div class="votacion-container">
-    <h1 class="title">Encuesta de Programación</h1>
-    <p class="subtitle">Vota por tu lenguaje favorito</p>
+    <h1 class="title">Enquesta de Programació</h1>
+    <p class="subtitle">Vota pel teu llenguatge preferit!</p>
 
     <div class="opciones-grid">
         <div 
@@ -11,7 +11,7 @@
         >
         <div class="card-header">
             <h3>{{ opcionesNombres[index] || `Opción ${index + 1}` }}</h3>
-            <span class="badge">{{ cantidad }} votos</span>
+            <span class="badge">{{ cantidad }} votacions</span>
         </div>
 
         <div class="progress-bg">
