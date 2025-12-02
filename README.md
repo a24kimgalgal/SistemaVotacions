@@ -1,20 +1,20 @@
-# 🗳️ Sistema de Votaciones en Tiempo Real
+# Sistema de Votacions en Temps Real
 
-Una aplicación web full-stack que permite a los usuarios votar por opciones predefinidas y ver cómo los resultados se actualizan instantáneamente en todos los dispositivos conectados mediante WebSockets.
+Una aplicació web *full-stack* que permet als usuaris votar per opcions predefinides i veure com els resultats s'actualitzen instantàniament en tots els dispositius connectats mitjançant WebSockets.
 
-## 🚀 Tecnologías Utilizadas
+## Tecnologies Utilitzades
 
 * **Frontend:** Vue 3, Vite, Vuetify, Pinia.
 * **Backend:** Node.js, Express, WS (WebSockets).
-* **Persistencia:** Archivo JSON local (`votos.json`).
+* **Persistència:** Arxiu JSON local (`votos.json`).
 
-## 🛠️ Instalación y Ejecución
+## Instal·lació i Execució
 
-Este proyecto consta de dos partes: el servidor (backend) y el cliente (frontend). Necesitas dos terminales abiertas.
+Aquest projecte consta de dues parts: el servidor (*backend*) i el client (*frontend*). Necessites dues terminals obertes.
 
 ### 1. Iniciar el Backend (Servidor)
 
-El servidor maneja las conexiones WebSocket y guarda los votos.
+El servidor gestiona les connexions WebSocket i guarda els vots.
 
 ```bash
 cd backend
